@@ -1,0 +1,2 @@
+# IoT-based-Alcohol-Monitoring-System-using-GPS-and-GSM-modules
+IoT-Based Alcohol Detection &amp; Vehicle Immobilization System An IoT solution to improve road safety by detecting alcohol on the driver’s breath. Built with Arduino, MQ-3 sensor, GPS, and GSM, it immobilizes the vehicle and sends location alerts via SMS if alcohol levels are high. Aimed to reduce accidents and support responsible driving practices.
