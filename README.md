@@ -15,7 +15,7 @@ An IoT-powered alcohol detection system that enhances road safety by detecting a
 
 4.Instant system status display on 16x2 LCD screen.
 
-## Hardware Components:
+## Hardware Requirements:
 
 1.Arduino Uno
 
@@ -37,9 +37,11 @@ An IoT-powered alcohol detection system that enhances road safety by detecting a
 
 2.Libraries for SIM800l, NEO-6M GPS, and LCD 
 
-## Circuit Diagram:
+## System Architecture:
 
 ![image](https://github.com/user-attachments/assets/3cf27fca-8908-4549-bb91-d81e9eafbdb9)
+![image](https://github.com/user-attachments/assets/607d20e0-1de6-4b25-9dc4-26aa085dda63)
+
 
 ## Setup and Installation:
 
@@ -340,6 +342,15 @@ After resetting, the system will resume monitoring once powered on again, ready 
 ## Project Demo:
 https://www.youtube.com/watch?v=rdVbVAqx6hk
 
+## Output :
+![image](https://github.com/user-attachments/assets/949e1174-1e49-4cf2-90b2-8f7b684abcb2)
+![image](https://github.com/user-attachments/assets/cd496e0b-0d29-4bec-bb63-bb2154d197a5)
+
+## Results and Outcome :
+The alcohol detection system developed with an Arduino board demonstrates effective real-time monitoring of alcohol levels, specifically tailored for vehicle safety applications. During testing, the system reliably activated alerts through an LED indicator and buzzer when alcohol levels exceeded the preset threshold. This immediate response provides a visual and auditory warning, helping deter intoxicated driving.
+The MQ-3 alcohol sensor proved consistent in detecting alcohol concentration in breath samples, with calibration adjustments allowing for accurate performance in different conditions. This adaptability enhances the system's reliability over time, even with environmental changes or sensor aging.
+The system's LCD interface displays real-time alcohol readings, making it user-friendly, while the button-based reset feature allows for easy handling. This low-cost, efficient solution holds potential for broader applications, such as workplace safety, where sober operation is essential. Future enhancements could include connectivity with GPS or GSM modules for remote alerts, making it suitable for fleet management systems. Overall, this system effectively contributes to safety by helping to prevent alcohol-related incidents.
+
 ## Conclusion:
 
 The IoT-Based Alcohol Detection and Vehicle Immobilization System represents a significant step forward in enhancing road safety and preventing alcohol-related accidents. By integrating advanced technologies like alcohol sensors, GPS, and GSM modules, this project provides a comprehensive solution to tackle the dangers of impaired driving. The system's ability to immediately immobilize a vehicle upon detecting alcohol levels and notify designated contacts ensures swift action can be taken to protect both the driver and the public.
@@ -347,3 +358,26 @@ The IoT-Based Alcohol Detection and Vehicle Immobilization System represents a s
 As a proactive measure, this innovative solution is ideal for use in personal vehicles and public transportation, aiming to foster responsible driving practices and promote safer roads for everyone. With the increasing prevalence of alcohol-related incidents, the deployment of such systems can have a profound impact on public safety, ultimately saving lives and reducing the burden on emergency services.
 
 By harnessing the power of the Internet of Things, this project not only showcases the potential of modern technology but also emphasizes our collective responsibility to prioritize safety on the roads. Together, we can pave the way for a future where responsible driving becomes the norm, ensuring a safer environment for all.
+
+## Articles published / References :
+[1] Choi, Y., Han, S.I., Kong, S.-H., Ko, H.: Driver status monitoring systems for smart vehicles using physiological sensors—a safety enhancement system from automobile manufacturers. IEEE Mag. Sig. Process. Smart Veh. Technol. (2016)
+
+[2] Dhivya, M., Kathiravan, S.: Hybrid driver safety, vigilance and security system for vehicle. In: IEEE Sponsored 2nd International Conference on Innovations in Information Embedded and Communication Systems ICIIECS’15 (2015)
+
+[3] Pughazendi, N., Sathishkumar, R., Balaji, S., Sathyavenkateshwaren, S., Subash Chander, S., Surendar, V.: Heart attack and alcohol detection sensor monitoring in smart transportation system using internet of things. In: IEEE International Conference on Energy, Communication, Data Analytics and Soft Computing (ICECDS-2017) (2017)
+
+[4] Malathi, M., Sujitha, R., Revathi, M.R.: Alcohol detection and seat belt control system using Arduino. In: IEEE International Conference on Innovations in Information Embedded and Communication Systems (ICIIECS) (2017)
+
+[5] Parakkal, P.G., Sajith Variyar, V.V.: GPS based navigation system for autonomous car. In: IEEE International Conference on Advances in Computing, Communications and Informatics (2017)
+
+[6] Kodire, V., Bhaskaran, S., Vishwas, H.N.: GPS and ZigBee based traffic signal preemption. In: IEEE International Conference on Inventive Computational Technologies (2016)
+
+[7] Hu, J., Xu, L., He, X., Meng, W.: Abnormal driving detection based on normalized driving behaviour. IEEE Trans. Veh. Technol. 66(8) (2017)
+
+[8] Vishal, D., Afaque, H.S., Bhardawaj, H., Ramesh, T.K.: IoT-driven road safety system. In: International Conference on Electrical, Electronics, Communication, Computer and Optimization Techniques (2017)
+
+[9] Chowdhury, A., Shankaran, R., Kavakli, M., Haque, M.M.: Sensor applications and physiological features in drivers’ drowsiness detection: a review. IEEE Sens. J. 18(8) (2018)
+
+[10] Sandeep, K., Kumar, P.R., Ranjith, S.: Novel drunken driving detection and prevention models using Internet of Things. In: International Conference on Recent Trends in Electrical, Electronics and Computing Technologies (2017)
+
+[11] Charniya, N.N., Nair, V.R.: Drunk driving and drowsiness detection. In: 2017 IEEE International Conference on Intelligent Computing and Control (I2C2) (2017)
